@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Header from"./components/Header";
+import Checkout from"./components/Checkout";
 import Customise from"./components/Customise";
 
 function App() {
@@ -22,12 +23,12 @@ function App() {
     <Router>
         <Switch>
           <Route exact path="/">
-           <h1>CUSTOMIZATION</h1>
+           
            <Customise ingredients={ingredients} 
            setIngredients={setIngredients}/>
           </Route>
           <Route path="/checkout">
-          <h1>Checkout</h1>
+          <Checkout ingredients={ingredients} />
             
           </Route>
         </Switch>
