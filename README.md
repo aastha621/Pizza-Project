@@ -1,3 +1,6 @@
+A user friendly react app to customise and place your pizza order, inspired by Dominoes and Pizza Hut!
+Animations done using Framer Motion, React Router used to link the pages.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
