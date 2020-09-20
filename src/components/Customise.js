@@ -30,7 +30,7 @@ export default function Customise({ingredients, setIngredients})
 		
 
 		
-		 <div style={{border:'2px solid black', flex:1}}>
+		 <div style={{ flex:1, padding: '20px'}}>
 		 
 
 		 <div style={{ maxHeight: 500, maxWidth: 500, position: 'relative' }}>
@@ -118,7 +118,9 @@ export default function Customise({ingredients, setIngredients})
 		 </div>
 
 
-		 <div style={{border:'2px solid black', flex:1}}>Ingredient
+		 <div style={{ flex:1, padding: '10px'}}>
+
+		 <h1 style={{ fontFamily: "Comfortaa" }}>INGREDIENTS</h1>
 
 		 <label className="container-checkbox">
           Pineapple
@@ -188,7 +190,7 @@ export default function Customise({ingredients, setIngredients})
           <span className="checkmark"></span>
         </label>
 
-        <button  onClick={() => history.push("/checkout")} >PROCEED TO CHECKOUT</button>
+        <button  onClick={() => history.push("/checkout")} className="proceedToCheckout" >PROCEED TO CHECKOUT</button>
 
         </div>
 

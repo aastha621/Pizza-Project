@@ -4,13 +4,28 @@ export default function Header()
 {
 	return(
 		 <div
-      style={{padding: '10px 50px', background:'black'}}
+      style={{
+        background: "#0D0628",
+        padding: "15px 50px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
     >
-
-    
-
-        <div style={{color:'white'}}>PIZZA CUSTOMISATION</div>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        
+        <div
+          style={{
+            marginLeft: 20,
+            fontSize: 30,
+            color: "yellow",
+            fontFamily: "Alata,sans-serif",
+          }}
+        >
+          Pizza Customization
+        </div>
       </div>
+    </div>
     
 		);
 
